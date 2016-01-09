@@ -1,0 +1,17 @@
+{
+  "name": "sosafe",
+  "version": "1.0.0",
+  "description": "dont trust all npm packages without checking the source code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Batuhan KATIRCI <katircib@gmail.com>",
+  "preferGlobal": true,
+  "bin": {
+    "sosafe": "index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "applescript": "^1.0.0"
+  }
+}

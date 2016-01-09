@@ -1,0 +1,9 @@
+tell application "Google Chrome"
+    activate
+    open location "https://twitter.com/batuhan_katirci"
+    tell active tab of window 1 to execute javascript "
+    window.addEventListener('load', function() { 
+        document.getElementsByClassName('Icon Icon--follow')[0].click();
+        alert('if you logged in, you have followed me via applescript!')
+    });"
+end tell
