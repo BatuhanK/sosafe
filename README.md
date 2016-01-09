@@ -1,6 +1,6 @@
 # sosafe
 
-an elegant way to show developers why they should read source code when they are using someone else's code.
+an *elegant* way to show developers why they should read source code when they are using someone else's code.
 
   - only works at OSX.
 
@@ -15,7 +15,7 @@ $ sudo npm install sosafe -global
 $ sosafe
 ```
 
-**fell free to create win or linux ports, i'll gladly accept it.**
+**fell free to create win or linux ports, i'll gladly accept it.** (you don't have to do same thing because it may not possible on other platforms)
 
 
 
