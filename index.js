@@ -12,6 +12,6 @@ applescript.execFile('SOHIDDENSCRIPT.file',function(err,d){
     console.log("Shit. Applescript throwed an error.");
     console.log(err);
   } else {
-    console.log("Please don't use any code from reading it's source code if you don't trust the owner.")
+    console.log("Please don't use any packages without reading their source code first!")
   }
 })
